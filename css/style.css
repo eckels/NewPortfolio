@@ -11,7 +11,21 @@ header {
   height: 100vh;
 }
 
+canvas {
+  position: absolute;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 nav {
+  position: absolute;
+  z-index: 2;
+  right: 0;
   margin: 0;
   padding: 0;
 }
@@ -31,10 +45,11 @@ nav a {
 
 nav li {
   display: inline;
-  font-size: 1.2em;
+  font-size: 1.25em;
   margin-right: 20px;
   color: black;
   transition: text-decoration .3s;
+  font-family: 'Inconsolata', monospace;
 }
 
 nav li:hover {
@@ -46,6 +61,7 @@ nav li:hover {
   position: absolute;
   bottom: 25%;
   width: 850px;
+  z-index: 5;
 }
 
 .intro-text {
@@ -70,4 +86,65 @@ h1 {
   font-size: 1.1em;
   margin: 0;
   line-height: 150%;
+}
+
+/* Work Section Styling */
+
+#work {
+
+}
+
+#work h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.8em;
+  text-align: center;
+}
+
+.project-grid {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("https://eckels.github.io/NewPortfolio/img/shelf.png");
+  background-size: 100% 320px;
+  background-repeat: repeat;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-block {
+  float: left;
+  width: 33%;
+  height: 320px;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.project-content {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.project-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.project-content p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.3em;
+}
+
+/* About Section Styling */
+
+#about {
+  padding: 30px;
+}
+
+#about h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.5em;
 }
