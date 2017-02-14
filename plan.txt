@@ -1,0 +1,6 @@
+use the white shelf thing for a background for elements in portfolio
+
+font-family: 'Inconsolata', monospace;
+
+#2a64f8
+#4376f9
