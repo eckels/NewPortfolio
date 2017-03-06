@@ -140,84 +140,65 @@ h1 {
 /* About Section Styling */
 
 #about {
-  padding: 30px;
+  padding: 4%;
   padding-bottom: 0;
-  text-align: center;
+  background-image: url('https://eckels.github.io/NewPortfolio/img/stripes.png');
+  background-size: cover;
+}
+
+#about h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2.8em;
+  color: #2a64f8;
+}
+
+.background-div {
+  padding: 0;
+  margin: 0;
+}
+
+.encompass {
+  max-width: 1350px;
+  margin: 0 auto 0 auto;
+  padding: 0;
 }
 
 .left-div {
-  display: inline-block;
-  width: 350px;
-  margin: 0;
-  vertical-align: top;
-  margin: 0 10px 0 10px;
+  width: 50%;
+  float: left;
 }
 
-.left-div h2 {
-  font-weight: bold;
-  font-style: italic;
-  color: #2a64f8;
-  font-size: 2.9em;
-  margin-bottom: 40px;
-}
-
-.left-div img {
-  height: 250px;
-  width: 250px;
-  border-radius: 125px;
-  box-shadow: 25px 20px #2a64f8;
-  margin-bottom: 0;
+.left-div p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.1em;
+  line-height: 160%;
 }
 
 .right-div {
-  display: inline-block;
-  width: 500px;
-  margin: 0;
-  vertical-align: top;
-  margin: 0 10px 0 10px;
-  margin-top: 140px;
+  float: left;
+  width: 50%;
+  position: relative;
+  height: 405px;
 }
 
-.right-div p {
-  margin: 0;
-  color: white;
-  font-family: 'Inconsolata', monospace;
-  line-height: 180%;
-  padding: 20px;
-  background-color: #2a64f8;
-}
-
-.dash {
-  background-color: #2a64f8;
-  width: 5px;
-  height: 70px;
-  margin-left: auto;
-  margin-right: auto;
+.right-div img {
+  width: 70%;
+  height: auto;
+  position: absolute;
+  margin-left: 10%;
+  bottom: 0;
 }
 
 /* Contact Section Styling */
 
 #contact {
-  padding: 12px;
-  padding-top: 0;
+  padding: 4%;
 }
 
-#contact .inner-div {
-  background-color: #2a64f8;
-  padding: 30px;
-}
-
-.inner-div h3 {
+#contact h2 {
   font-weight: bold;
   font-style: italic;
-  color: white;
-  margin: 0;
-  font-size: 2.9em;
-}
-
-.inner-div p {
-  font-family: 'Inconsolata', monospace;
-  color: white;
-  max-width: 650px;
-  line-height: 180%;
+  font-size: 2.8em;
+  color: #2a64f8;
 }
