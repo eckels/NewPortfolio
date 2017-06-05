@@ -105,7 +105,7 @@ h1 {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-image: url("https://eckels.github.io/NewPortfolio/img/shelf.png");
+  background-image: url("http://www.evaneckels.com/img/shelf.png");
   background-size: 100% 320px;
   background-repeat: repeat;
   padding-left: 10%;
@@ -124,6 +124,7 @@ h1 {
   margin: 0;
   padding: 0;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .project-content img {
@@ -142,7 +143,7 @@ h1 {
 #about {
   padding: 4%;
   padding-bottom: 0;
-  background-image: url('https://eckels.github.io/NewPortfolio/img/stripes.png');
+  background-image: url('http://www.evaneckels.com/img/stripes.png');
   background-size: cover;
 }
 
